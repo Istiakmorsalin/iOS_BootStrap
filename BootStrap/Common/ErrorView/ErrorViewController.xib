@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ErrorViewController" customModule="lylink_dev" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="iN0-l3-epB" id="M06-7e-Di4"/>
+                <outlet property="errorLabel" destination="z4Z-Xe-PCO" id="Pc5-aZ-yoX"/>
+                <outlet property="view" destination="iN0-l3-epB" id="tSG-Wo-pNF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="172"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4Z-Xe-PCO">
+                    <rect key="frame" x="32" y="32" width="311" height="46"/>
+                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCU-br-23m">
+                    <rect key="frame" x="172" y="110" width="30" height="30"/>
+                    <state key="normal" title="OK">
+                        <color key="titleColor" red="0.99607843139999996" green="0.3803921569" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="okButtonAction:" destination="-1" eventType="touchUpInside" id="EH0-1h-25K"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="z4Z-Xe-PCO" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="32" id="EoY-kA-w2T"/>
+                <constraint firstItem="xCU-br-23m" firstAttribute="top" secondItem="z4Z-Xe-PCO" secondAttribute="bottom" constant="32" id="NdC-Lb-OAa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="z4Z-Xe-PCO" secondAttribute="trailing" constant="32" id="cXH-Qa-rsb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="xCU-br-23m" secondAttribute="bottom" constant="32" id="jTJ-pJ-yfH"/>
+                <constraint firstItem="xCU-br-23m" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xnf-IL-YLF"/>
+                <constraint firstItem="z4Z-Xe-PCO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="32" id="zgC-KX-Yri"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="32.5" y="273"/>
+        </view>
+    </objects>
+</document>

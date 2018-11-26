@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDDraftMessage" representedClassName="CDDraftMessage" syncable="YES" codeGenerationType="class">
+        <attribute name="createdAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isPublic" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phraseID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="phraseThumbString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDPhoto" syncable="YES"/>
+        <relationship name="textFilter" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDTextFilter" syncable="YES"/>
+    </entity>
+    <entity name="CDPassword" representedClassName="CDPassword" syncable="YES" codeGenerationType="class">
+        <attribute name="messageID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDPhoto" representedClassName="CDPhoto" syncable="YES" codeGenerationType="class">
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="urlString" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDSearch" representedClassName="CDSearch" syncable="YES" codeGenerationType="class">
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDTextFilter" representedClassName="CDTextFilter" syncable="YES" codeGenerationType="class">
+        <attribute name="createdAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontSize" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="iconURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imageURLString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDDraftMessage" positionX="-36" positionY="9" width="128" height="180"/>
+        <element name="CDPassword" positionX="0" positionY="63" width="128" height="75"/>
+        <element name="CDPhoto" positionX="0" positionY="72" width="128" height="75"/>
+        <element name="CDSearch" positionX="27" positionY="99" width="128" height="60"/>
+        <element name="CDTextFilter" positionX="0" positionY="63" width="128" height="180"/>
+    </elements>
+</model>
