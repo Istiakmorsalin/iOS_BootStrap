@@ -1,13 +1,8 @@
 PODS:
   - Alamofire (4.7.3)
   - AMScrollingNavbar (5.1.0)
-  - AppsFlyerFramework (4.8.9)
-  - Crashlytics (3.10.8):
-    - Fabric (~> 1.7.12)
   - CryptoSwift (0.12.0)
-  - DeployGateSDK (1.0.7)
   - Differentiator (3.1.0)
-  - Fabric (1.7.12)
   - Firebase/Core (5.11.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (= 5.3.0)
@@ -48,7 +43,6 @@ PODS:
     - Protobuf (~> 3.1)
   - Gifu (3.2.0)
   - Google-Mobile-Ads-SDK (7.35.1)
-  - GoogleAnalytics (3.17.0)
   - GoogleAppMeasurement (5.3.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
     - GoogleUtilities/MethodSwizzler (~> 5.2)
@@ -108,27 +102,21 @@ PODS:
   - SnapKit (4.0.1)
   - SwiftLint (0.27.0)
   - "UITextView+Placeholder (1.2.1)"
-  - XCGLogger (6.1.0):
-    - XCGLogger/Core (= 6.1.0)
-  - XCGLogger/Core (6.1.0):
+  - XCGLogger (7.0.1):
+    - XCGLogger/Core (= 7.0.1)
+  - XCGLogger/Core (7.0.1):
     - ObjcExceptionBridging
   - XLPagerTabStrip (8.0.1)
-  - youtube-ios-player-helper (0.1.6)
 
 DEPENDENCIES:
   - Alamofire (= 4.7.3)
   - AMScrollingNavbar (= 5.1.0)
-  - AppsFlyerFramework (= 4.8.9)
-  - Crashlytics (= 3.10.8)
   - CryptoSwift (= 0.12.0)
-  - DeployGateSDK
-  - Fabric (= 1.7.12)
   - Firebase/Core
   - Firebase/DynamicLinks
   - Firebase/Messaging
   - Gifu (= 3.2.0)
   - Google-Mobile-Ads-SDK
-  - GoogleAnalytics
   - IQKeyboardManagerSwift (= 6.1.1)
   - KeychainAccess (= 3.1.1)
   - Kingfisher (= 4.10.0)
@@ -143,20 +131,15 @@ DEPENDENCIES:
   - SnapKit (= 4.0.1)
   - SwiftLint (= 0.27.0)
   - "UITextView+Placeholder"
-  - XCGLogger (= 6.1.0)
+  - XCGLogger (~> 7.0.1)
   - XLPagerTabStrip (= 8.0.1)
-  - youtube-ios-player-helper (= 0.1.6)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - AMScrollingNavbar
-    - AppsFlyerFramework
-    - Crashlytics
     - CryptoSwift
-    - DeployGateSDK
     - Differentiator
-    - Fabric
     - Firebase
     - FirebaseAnalytics
     - FirebaseAnalyticsInterop
@@ -166,14 +149,12 @@ SPEC REPOS:
     - FirebaseMessaging
     - Gifu
     - Google-Mobile-Ads-SDK
-    - GoogleAnalytics
     - GoogleAppMeasurement
     - GoogleUtilities
     - IQKeyboardManagerSwift
     - KeychainAccess
     - Kingfisher
     - nanopb
-    - ObjcExceptionBridging
     - Protobuf
     - ReachabilitySwift
     - Reusable
@@ -186,19 +167,16 @@ SPEC REPOS:
     - SnapKit
     - SwiftLint
     - "UITextView+Placeholder"
-    - XCGLogger
     - XLPagerTabStrip
-    - youtube-ios-player-helper
+  trunk:
+    - ObjcExceptionBridging
+    - XCGLogger
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   AMScrollingNavbar: e10b5e259a3d7fea30ed537cd57e6ba4fbb23d65
-  AppsFlyerFramework: 0fc823ec9b77f913e4108caa82c969be033058b1
-  Crashlytics: 6a15a6f7cf8c7f037af827d0a54cdd023751c10e
   CryptoSwift: 1c07ca50843dd48bc54e6ea53d7a4dba3b645716
-  DeployGateSDK: df3d5838db7e35c05a711c35a3bdeef3c2b016ba
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
-  Fabric: 83595475c4149d220e7a82c2f6b6a00456fd2c4d
   Firebase: b48f9e653da971ecce5b8c749684bc8bb2d26bd3
   FirebaseAnalytics: 63202d2665de4e6adcbdce189135255d8b5962ba
   FirebaseAnalyticsInterop: e5f21be9af6548372e2f0815834ff909bff395a2
@@ -208,7 +186,6 @@ SPEC CHECKSUMS:
   FirebaseMessaging: 0f14a264b0d7f867e8eff5d3556bc5d0d4e57888
   Gifu: 7bcb6427457d85e0b4dff5a84ec5947ac19a93ea
   Google-Mobile-Ads-SDK: 151d5e87b4a0ae6d7d07e2cd8d55d1b41ea2e61e
-  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
   GoogleAppMeasurement: 5029d78f2b438bd30ffb44e6c558b57c21622727
   GoogleUtilities: abb092d2c12e817fa3e0e7b274987dd72fb86ec3
   IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
@@ -228,10 +205,9 @@ SPEC CHECKSUMS:
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
   "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
-  XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
+  XCGLogger: 1943831ef907df55108b0b18657953f868de973b
   XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
-  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
 
-PODFILE CHECKSUM: 05eafc2928aa3364093649d7d4a14bae5cd167bd
+PODFILE CHECKSUM: 2643c08ffa31e78d813f2227c9b650bb8dec36b6
 
 COCOAPODS: 1.10.2

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -58,7 +58,6 @@
 		1640298421A59805001F9508 /* UserUpdateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B06ED32108779200A51639 /* UserUpdateResponse.swift */; };
 		1640298521A59805001F9508 /* VerticalAlignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9A6AB214B7F8A00FB85E5 /* VerticalAlignLabel.swift */; };
 		1640298621A59805001F9508 /* Swinject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF3D20F32A4100703E5F /* Swinject+Extensions.swift */; };
-		1640298721A59805001F9508 /* GoogleAnalyticsScreenTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1EF1F20F5C53100E15EA2 /* GoogleAnalyticsScreenTracker.swift */; };
 		1640298821A59805001F9508 /* Gradientable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A096A6920F8B66500305595 /* Gradientable.swift */; };
 		1640298921A59805001F9508 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A096A6520F8B62A00305595 /* GradientButton.swift */; };
 		1640298A21A59805001F9508 /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF4120F32B6800703E5F /* UIWindow+Extension.swift */; };
@@ -72,7 +71,6 @@
 		1640299221A59805001F9508 /* AppsFlyerEventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1F141421524D53008FF54D /* AppsFlyerEventList.swift */; };
 		1640299321A59805001F9508 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1665335F20FCB65D00D948AB /* K.swift */; };
 		1640299421A59805001F9508 /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF4520F32BEF00703E5F /* UIView+Layer.swift */; };
-		1640299521A59805001F9508 /* AppsFlyerAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16877B0021523EFC00357B31 /* AppsFlyerAnalyticsManager.swift */; };
 		1640299621A59805001F9508 /* DynamicLinkDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FDEEC2191391B008A235B /* DynamicLinkDomain.swift */; };
 		1640299721A59805001F9508 /* SplashFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E182121217E7900CF7F34 /* SplashFlow.swift */; };
 		1640299821A59805001F9508 /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FD17BE219EC1F200C5761F /* LoginFlow.swift */; };
@@ -203,7 +201,6 @@
 		16402A2B21A59817001F9508 /* UserUpdateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B06ED32108779200A51639 /* UserUpdateResponse.swift */; };
 		16402A2C21A59817001F9508 /* VerticalAlignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9A6AB214B7F8A00FB85E5 /* VerticalAlignLabel.swift */; };
 		16402A2D21A59817001F9508 /* Swinject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF3D20F32A4100703E5F /* Swinject+Extensions.swift */; };
-		16402A2E21A59817001F9508 /* GoogleAnalyticsScreenTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1EF1F20F5C53100E15EA2 /* GoogleAnalyticsScreenTracker.swift */; };
 		16402A2F21A59817001F9508 /* Gradientable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A096A6920F8B66500305595 /* Gradientable.swift */; };
 		16402A3021A59817001F9508 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A096A6520F8B62A00305595 /* GradientButton.swift */; };
 		16402A3121A59817001F9508 /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF4120F32B6800703E5F /* UIWindow+Extension.swift */; };
@@ -218,7 +215,6 @@
 		16402A3A21A59817001F9508 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1665335F20FCB65D00D948AB /* K.swift */; };
 		16402A3B21A59817001F9508 /* DynamicLinkDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FDEEA2191390B008A235B /* DynamicLinkDomain.swift */; };
 		16402A3C21A59817001F9508 /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF4520F32BEF00703E5F /* UIView+Layer.swift */; };
-		16402A3D21A59817001F9508 /* AppsFlyerAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16877B0021523EFC00357B31 /* AppsFlyerAnalyticsManager.swift */; };
 		16402A3E21A59817001F9508 /* SplashFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E182121217E7900CF7F34 /* SplashFlow.swift */; };
 		16402A3F21A59817001F9508 /* UICollectionView+Indexpath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB6A11B218DAF1400CA4076 /* UICollectionView+Indexpath.swift */; };
 		16402A4021A59817001F9508 /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FD17BE219EC1F200C5761F /* LoginFlow.swift */; };
@@ -348,7 +344,6 @@
 		16402AD221A59823001F9508 /* UserUpdateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B06ED32108779200A51639 /* UserUpdateResponse.swift */; };
 		16402AD321A59823001F9508 /* VerticalAlignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9A6AB214B7F8A00FB85E5 /* VerticalAlignLabel.swift */; };
 		16402AD421A59823001F9508 /* Swinject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF3D20F32A4100703E5F /* Swinject+Extensions.swift */; };
-		16402AD521A59823001F9508 /* GoogleAnalyticsScreenTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1EF1F20F5C53100E15EA2 /* GoogleAnalyticsScreenTracker.swift */; };
 		16402AD621A59823001F9508 /* Gradientable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A096A6920F8B66500305595 /* Gradientable.swift */; };
 		16402AD721A59823001F9508 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A096A6520F8B62A00305595 /* GradientButton.swift */; };
 		16402AD821A59823001F9508 /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF4120F32B6800703E5F /* UIWindow+Extension.swift */; };
@@ -364,7 +359,6 @@
 		16402AE221A59823001F9508 /* DynamicLinkDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FDEE8219138FC008A235B /* DynamicLinkDomain.swift */; };
 		16402AE321A59823001F9508 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5624C921648CC7000D3EC2 /* PlaceHolderTextView.swift */; };
 		16402AE421A59823001F9508 /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF4520F32BEF00703E5F /* UIView+Layer.swift */; };
-		16402AE521A59823001F9508 /* AppsFlyerAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16877B0021523EFC00357B31 /* AppsFlyerAnalyticsManager.swift */; };
 		16402AE621A59823001F9508 /* SplashFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E182121217E7900CF7F34 /* SplashFlow.swift */; };
 		16402AE721A59823001F9508 /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FD17BE219EC1F200C5761F /* LoginFlow.swift */; };
 		16402AE821A59823001F9508 /* UICollectionView+Indexpath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB6A11B218DAF1400CA4076 /* UICollectionView+Indexpath.swift */; };
@@ -499,7 +493,6 @@
 		167A9BAC2106F1E300D500ED /* ImageUploadParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUploadParameter.swift; sourceTree = "<group>"; };
 		167A9BB0210716E200D500ED /* ImageUploadResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUploadResponse.swift; sourceTree = "<group>"; };
 		167A9BB421072DC700D500ED /* ImageUploadErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUploadErrorResponse.swift; sourceTree = "<group>"; };
-		16877B0021523EFC00357B31 /* AppsFlyerAnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerAnalyticsManager.swift; sourceTree = "<group>"; };
 		1695551D214A363D00418768 /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
 		169D467D215904F2001A1847 /* Sortable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sortable.swift; sourceTree = "<group>"; };
 		16B0393C2150CC72006DA806 /* FirebaseAnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalyticsManager.swift; sourceTree = "<group>"; };
@@ -516,7 +509,6 @@
 		16B4506F21A6A1BF008D30B4 /* HomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 		16C248E12121B32E0013CF61 /* BasicListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicListView.swift; sourceTree = "<group>"; };
 		16C248E52121B4320013CF61 /* BasicListViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicListViewPresenter.swift; sourceTree = "<group>"; };
-		16E1EF1F20F5C53100E15EA2 /* GoogleAnalyticsScreenTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAnalyticsScreenTracker.swift; sourceTree = "<group>"; };
 		16F0EBED2199460D00BA9981 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 		16F0EBEF2199461500BA9981 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		16FD17AA219EBAE100C5761F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -719,11 +711,9 @@
 				E8A3FA4D217EFAE000631E44 /* NetworkStatusManager.swift */,
 				16B0393C2150CC72006DA806 /* FirebaseAnalyticsManager.swift */,
 				9C1F141021524C03008FF54D /* FirebaseEventList.swift */,
-				16877B0021523EFC00357B31 /* AppsFlyerAnalyticsManager.swift */,
 				9C1F141421524D53008FF54D /* AppsFlyerEventList.swift */,
 				1617CE9F216B525B00519E2F /* ColorUtil.swift */,
 				1695551D214A363D00418768 /* TimeFormatter.swift */,
-				16E1EF1F20F5C53100E15EA2 /* GoogleAnalyticsScreenTracker.swift */,
 				9C1F141821524D72008FF54D /* ScreenList.swift */,
 				3A9D1D2620F775EB00C84B55 /* AppUtils.swift */,
 				3AA99FEE211C173B00F92E7D /* DateFormatters.swift */,
@@ -1193,8 +1183,6 @@
 				164029DB21A59805001F9508 /* Frameworks */,
 				164029DD21A59805001F9508 /* Resources */,
 				164029EE21A59805001F9508 /* [CP] Embed Pods Frameworks */,
-				164029EF21A59805001F9508 /* ShellScript */,
-				164029F021A59805001F9508 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1216,7 +1204,6 @@
 				16402A8521A59817001F9508 /* Resources */,
 				16402A9521A59817001F9508 /* [CP] Embed Pods Frameworks */,
 				16402A9621A59817001F9508 /* ShellScript */,
-				16402A9721A59817001F9508 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1397,39 +1384,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dev/Pods-dev-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		164029EF21A59805001F9508 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 8f398dfb5795020600909fe7839fed8d03be3727 4612f12b7147c3514a3efd0d03a2d7d83c71ac0652f5c07cbb3d643d33a4bf4f\n";
-		};
-		164029F021A59805001F9508 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dev/Pods-dev-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dev/Pods-dev-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dev/Pods-dev-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		164029F721A59817001F9508 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1492,23 +1446,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" b29d08eacd4588cc008cd420b9b480d794190c2f 487df6b20853ee7a88c5a4727fc8077aae1676479491d81643c53783ced681bf\n";
-		};
-		16402A9721A59817001F9508 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stg/Pods-stg-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stg/Pods-stg-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stg/Pods-stg-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		16402A9E21A59823001F9508 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1632,7 +1569,6 @@
 				1640298421A59805001F9508 /* UserUpdateResponse.swift in Sources */,
 				1640298521A59805001F9508 /* VerticalAlignLabel.swift in Sources */,
 				1640298621A59805001F9508 /* Swinject+Extensions.swift in Sources */,
-				1640298721A59805001F9508 /* GoogleAnalyticsScreenTracker.swift in Sources */,
 				1640298821A59805001F9508 /* Gradientable.swift in Sources */,
 				1640298921A59805001F9508 /* GradientButton.swift in Sources */,
 				1640298A21A59805001F9508 /* UIWindow+Extension.swift in Sources */,
@@ -1646,7 +1582,6 @@
 				1640299221A59805001F9508 /* AppsFlyerEventList.swift in Sources */,
 				1640299321A59805001F9508 /* K.swift in Sources */,
 				1640299421A59805001F9508 /* UIView+Layer.swift in Sources */,
-				1640299521A59805001F9508 /* AppsFlyerAnalyticsManager.swift in Sources */,
 				1640299621A59805001F9508 /* DynamicLinkDomain.swift in Sources */,
 				1640299721A59805001F9508 /* SplashFlow.swift in Sources */,
 				1640299821A59805001F9508 /* LoginFlow.swift in Sources */,
@@ -1774,7 +1709,6 @@
 				16402A2B21A59817001F9508 /* UserUpdateResponse.swift in Sources */,
 				16402A2C21A59817001F9508 /* VerticalAlignLabel.swift in Sources */,
 				16402A2D21A59817001F9508 /* Swinject+Extensions.swift in Sources */,
-				16402A2E21A59817001F9508 /* GoogleAnalyticsScreenTracker.swift in Sources */,
 				16402A2F21A59817001F9508 /* Gradientable.swift in Sources */,
 				16402A3021A59817001F9508 /* GradientButton.swift in Sources */,
 				16402A3121A59817001F9508 /* UIWindow+Extension.swift in Sources */,
@@ -1789,7 +1723,6 @@
 				16402A3A21A59817001F9508 /* K.swift in Sources */,
 				16402A3B21A59817001F9508 /* DynamicLinkDomain.swift in Sources */,
 				16402A3C21A59817001F9508 /* UIView+Layer.swift in Sources */,
-				16402A3D21A59817001F9508 /* AppsFlyerAnalyticsManager.swift in Sources */,
 				16402A3E21A59817001F9508 /* SplashFlow.swift in Sources */,
 				16402A3F21A59817001F9508 /* UICollectionView+Indexpath.swift in Sources */,
 				16402A4021A59817001F9508 /* LoginFlow.swift in Sources */,
@@ -1916,7 +1849,6 @@
 				16402AD221A59823001F9508 /* UserUpdateResponse.swift in Sources */,
 				16402AD321A59823001F9508 /* VerticalAlignLabel.swift in Sources */,
 				16402AD421A59823001F9508 /* Swinject+Extensions.swift in Sources */,
-				16402AD521A59823001F9508 /* GoogleAnalyticsScreenTracker.swift in Sources */,
 				16402AD621A59823001F9508 /* Gradientable.swift in Sources */,
 				16402AD721A59823001F9508 /* GradientButton.swift in Sources */,
 				16402AD821A59823001F9508 /* UIWindow+Extension.swift in Sources */,
@@ -1932,7 +1864,6 @@
 				16402AE221A59823001F9508 /* DynamicLinkDomain.swift in Sources */,
 				16402AE321A59823001F9508 /* PlaceHolderTextView.swift in Sources */,
 				16402AE421A59823001F9508 /* UIView+Layer.swift in Sources */,
-				16402AE521A59823001F9508 /* AppsFlyerAnalyticsManager.swift in Sources */,
 				16402AE621A59823001F9508 /* SplashFlow.swift in Sources */,
 				16402AE721A59823001F9508 /* LoginFlow.swift in Sources */,
 				16402AE821A59823001F9508 /* UICollectionView+Indexpath.swift in Sources */,

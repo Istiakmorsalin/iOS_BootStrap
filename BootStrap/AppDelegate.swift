@@ -6,15 +6,12 @@
 //
 
 import UIKit
-import Fabric
 import RxFlow
 import RxSwift
 import RxCocoa
 import XCGLogger
-import Crashlytics
 import Firebase
 import GoogleMobileAds
-import AppsFlyerLib
 import IQKeyboardManagerSwift
 
 let log: XCGLogger = {
@@ -75,9 +72,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setupAdMob()
         setupAppsFlyer()
         IQKeyboardManager.shared.enable = true
-        #if DEV && STG
-        DeployGateSDK.sharedInstance().launchApplication(withAuthor: "BootStrap", key: "d1b3b630a30c1393ed8954b3c65d5d2f83d07641")
-        #endif
         
         guard let window = self.window else { return false }
         coordinator.rx.didNavigate.subscribe(onNext: {[weak self] (flow, step) in
@@ -101,7 +95,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
-        AppsFlyerTracker.shared().trackAppLaunch()
+        
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
@@ -109,7 +103,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func setupCrashlytics() {
-       Fabric.with([Crashlytics.self])
+       
     }
 
     func setupFirebase() {
@@ -117,17 +111,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func setupGoogleAnalytics() {
-        guard let gai = GAI.sharedInstance() else {
-            assert(false, "Google Analytics not configured correctly")
-            return
-        }
-        gai.tracker(withTrackingId: keyManager.provideGoogleAnalyticsID())
-        // Optional: automatically report uncaught exceptions.
-        gai.trackUncaughtExceptions = true
-
-        // Optional: set Logger to VERBOSE for debug information.
-        // Remove before app release.
-        gai.logger.logLevel = .verbose
     }
 
     func setupAdMob() {
@@ -136,18 +119,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func setupAppsFlyer() {
-        let appsFlyerDevKey = keyManager.provideAppsFlyerDevKey()
-        let appleAppID = keyManager.provideAppAppleID()
-        AppsFlyerTracker.shared().appsFlyerDevKey = appsFlyerDevKey
-        AppsFlyerTracker.shared().appleAppID = appleAppID
-        AppsFlyerTracker.shared().delegate = self
-        #if DEBUG
-        AppsFlyerTracker.shared().isDebug = true
-        #endif
+        
     }
 
 }
 
-extension AppDelegate: AppsFlyerTrackerDelegate {
-
-}

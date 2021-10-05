@@ -8,25 +8,5 @@
 	<string>ca-app-pub-3940256099942544/2934735716</string>
 	<key>AppAppleID</key>
 	<string>1410649117</string>
-	<key>FabricAPIKey</key>
-	<string>8f398dfb5795020600909fe7839fed8d03be3727</string>
-	<key>AppsFlyerDevKey</key>
-	<string>a7mvwReG26yLxS9pe2KvTJ</string>
-	<key>GoogleAnalyticsTrackingID</key>
-	<string>UA-125016847-1</string>
-	<key>Fabric</key>
-	<dict>
-		<key>APIKey</key>
-		<string>8f398dfb5795020600909fe7839fed8d03be3727</string>
-		<key>Kits</key>
-		<array>
-			<dict>
-				<key>KitInfo</key>
-				<dict/>
-				<key>KitName</key>
-				<string>Crashlytics</string>
-			</dict>
-		</array>
-	</dict>
 </dict>
 </plist>

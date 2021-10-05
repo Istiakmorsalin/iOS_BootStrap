@@ -29,7 +29,6 @@ class LoginViewController: UIViewController,StoryboardBased, ViewModelBased {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         self.navigationController?.isNavigationBarHidden = false
-        GoogleAnalyticsScreenTracker.trackScreen(name: Screens.tu01InputNickNameScreen.rawValue)
     }
     
     @IBAction func doLogin(_ sender: Any) {

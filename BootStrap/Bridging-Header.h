@@ -11,10 +11,6 @@
 
 
 #endif /* Bridging_Header_h */
-#import <GoogleAnalytics/GAI.h>
-#import <GoogleAnalytics/GAIDictionaryBuilder.h>
-#import <GoogleAnalytics/GAIFields.h>
 #import <UITextView_Placeholder/UITextView+Placeholder.h>
 #if DEV && STG
-#import <DeployGateSDK/DeployGateSDK.h>
 #endif

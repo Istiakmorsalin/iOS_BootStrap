@@ -10,17 +10,12 @@ def shared_pods
   pod 'RxDataSources', '3.1.0'
   pod 'SwiftLint', '0.27.0'
   pod 'Alamofire', '4.7.3'
-  pod 'XCGLogger', '6.1.0'
+  pod 'XCGLogger', '~> 7.0.1'
   pod 'Kingfisher', '4.10.0'
-  pod 'Fabric', '1.7.12'
-  pod 'Crashlytics', '3.10.8'
   pod 'Firebase/Core'
   pod 'Firebase/DynamicLinks'
-  pod 'GoogleAnalytics'
   pod 'Google-Mobile-Ads-SDK'
-  pod 'AppsFlyerFramework', '4.8.9'
   pod 'KeychainAccess', '3.1.1'
-  pod 'youtube-ios-player-helper', '0.1.6'
   pod 'AMScrollingNavbar', '5.1.0'
   pod 'SnapKit', '4.0.1'
   pod 'IQKeyboardManagerSwift', '6.1.1'
@@ -36,12 +31,10 @@ end
 
 target 'dev' do
   shared_pods
-  pod "DeployGateSDK"
 end
 
 target 'stg' do
     shared_pods
-    pod "DeployGateSDK"
 end
 
 target 'prod' do

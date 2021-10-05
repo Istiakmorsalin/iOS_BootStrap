@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Crashlytics
 
 class Logger: LoggerType {
 
@@ -16,7 +15,6 @@ class Logger: LoggerType {
     //Use for recording errors to firebase console
     static func logError(_ error: Error) {
         log.debug(error)
-        Crashlytics.sharedInstance().recordError(error)
     }
     //Use for writing log with firebase
     static func debugLog(_ message: String, file: StaticString = #file, function: StaticString = #function, line: Int = #line) {
