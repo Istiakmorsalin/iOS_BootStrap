@@ -519,13 +519,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		161DC5CD2101A1DB004DB18A /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Libs;
-			sourceTree = "<group>";
-		};
 		162498E720F369E200779AB7 /* Dev */ = {
 			isa = PBXGroup;
 			children = (
@@ -706,13 +699,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3A50C54920FDBBCD000508DB /* CollectionCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectionCell;
-			sourceTree = "<group>";
-		};
 		3A73AF0A20F31AD300703E5F = {
 			isa = PBXGroup;
 			children = (
@@ -736,7 +722,6 @@
 		3A73AF1520F31AD300703E5F /* BootStrap */ = {
 			isa = PBXGroup;
 			children = (
-				161DC5CD2101A1DB004DB18A /* Libs */,
 				16B4505321A6799B008D30B4 /* Bridging-Header.h */,
 				3A73AF1620F31AD300703E5F /* AppDelegate.swift */,
 				3A9D1CF920F7230700C84B55 /* Common */,
@@ -865,28 +850,10 @@
 				CA9BFB6C215CAD9E00562D4D /* Extension */,
 				9C0C8D9421426E3E009183C3 /* ErrorView */,
 				1665335F20FCB65D00D948AB /* K.swift */,
-				9C9E45B8213B9C1200327BB2 /* Loader */,
 				3A9D74BD2121AD35007D395E /* Controllers */,
-				3A9D1D1020F72EDC00C84B55 /* View */,
-				3A50C54920FDBBCD000508DB /* CollectionCell */,
-				3A9D1CFA20F7233900C84B55 /* TableCell */,
 				3AA99FFB211C74E600F92E7D /* DeleteButton.swift */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		3A9D1CFA20F7233900C84B55 /* TableCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableCell;
-			sourceTree = "<group>";
-		};
-		3A9D1D1020F72EDC00C84B55 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		3A9D74BD2121AD35007D395E /* Controllers */ = {
@@ -918,13 +885,6 @@
 				9C0E182E21217FEE00CF7F34 /* SplashViewModel.swift */,
 			);
 			path = Splash;
-			sourceTree = "<group>";
-		};
-		9C9E45B8213B9C1200327BB2 /* Loader */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Loader;
 			sourceTree = "<group>";
 		};
 		CA9BFB6C215CAD9E00562D4D /* Extension */ = {
