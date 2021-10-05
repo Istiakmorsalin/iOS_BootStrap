@@ -71,6 +71,8 @@ public extension UIDevice {
                 return "Apple TV Simulator"
             case .carPlay:
                 return "CarPlay Simulator"
+            case .mac:
+                return "Mac"
             }
         case let device:
             for (prefix, name) in UIDevice.deviceTypes {
