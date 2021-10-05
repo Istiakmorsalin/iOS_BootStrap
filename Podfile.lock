@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.7.3)
-  - CryptoSwift (0.12.0)
+  - CryptoSwift (1.4.2)
   - Firebase/Core (8.6.1):
     - Firebase/CoreOnly
     - FirebaseAnalytics (~> 8.6.0)
@@ -108,11 +108,11 @@ PODS:
     - XCGLogger/Core (= 7.0.1)
   - XCGLogger/Core (7.0.1):
     - ObjcExceptionBridging
-  - XLPagerTabStrip (8.0.1)
+  - XLPagerTabStrip (9.0.0)
 
 DEPENDENCIES:
   - Alamofire (= 4.7.3)
-  - CryptoSwift (= 0.12.0)
+  - CryptoSwift (~> 1.4.1)
   - Firebase/Core
   - IQKeyboardManagerSwift (= 6.3.0)
   - KeychainAccess (= 3.1.1)
@@ -127,19 +127,18 @@ DEPENDENCIES:
   - SwiftLint (= 0.27.0)
   - "UITextView+Placeholder"
   - XCGLogger (~> 7.0.1)
-  - XLPagerTabStrip (= 8.0.1)
+  - XLPagerTabStrip (~> 9.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
-    - CryptoSwift
     - KeychainAccess
     - ReachabilitySwift
     - Reusable
     - SkeletonView
     - SwiftLint
-    - XLPagerTabStrip
   trunk:
+    - CryptoSwift
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -159,10 +158,11 @@ SPEC REPOS:
     - SnapKit
     - "UITextView+Placeholder"
     - XCGLogger
+    - XLPagerTabStrip
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
-  CryptoSwift: 1c07ca50843dd48bc54e6ea53d7a4dba3b645716
+  CryptoSwift: a532e74ed010f8c95f611d00b8bbae42e9fe7c17
   Firebase: e84d95f6d3a91f634abc384f0751c434cb3aecfa
   FirebaseAnalytics: 8f32ae54ad42754f503354782575c4ddfc1425c3
   FirebaseCore: a753c231801f04f5ccd10cc92119ad1b12a61165
@@ -187,8 +187,8 @@ SPEC CHECKSUMS:
   SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
   "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
-  XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
 
-PODFILE CHECKSUM: 9741987f6f78eec16d858c9c8123390bdd3f1b50
+PODFILE CHECKSUM: 16c2f6d7851caabb53c9916ce28369f90233a26b
 
 COCOAPODS: 1.10.2

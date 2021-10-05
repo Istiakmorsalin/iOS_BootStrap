@@ -16,9 +16,9 @@ def shared_pods
   pod 'SnapKit', '~> 5.0.0'
   pod 'IQKeyboardManagerSwift', '6.3.0'
   pod 'SkeletonView', '1.4.0'
-  pod 'CryptoSwift', '0.12.0'
+  pod 'CryptoSwift', '~> 1.4.1'
   pod 'UITextView+Placeholder'
-  pod 'XLPagerTabStrip', '8.0.1'
+  pod 'XLPagerTabStrip', '~> 9.0'
   pod 'ReachabilitySwift'
 end
 
