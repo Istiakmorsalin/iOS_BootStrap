@@ -1,4 +1,4 @@
-platform :ios, '10.0'
+platform :ios, '12.0'
 
 def shared_pods
   use_frameworks!
@@ -34,23 +34,3 @@ end
 target 'prod' do
     shared_pods
 end
-
-#post_install do |installer|
-#    SWIFT_4_2_PODS = %w[Gifu DropDown]
-#
-#    installer.pods_project.targets.each do |target|
-#        if target.name == 'RxSwift'
-#            target.build_configurations.each do |config|
-#                if config.name == 'Debug'
-#                    config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['-D', 'TRACE_RESOURCES']
-#                end
-#            end
-#        end
-#
-#        if SWIFT_4_2_PODS.include?(target.name)
-#            target.build_configurations.each do |config|
-#                config.build_settings['SWIFT_VERSION'] = '4.2'
-#            end
-#        end
-#    end
-#end
