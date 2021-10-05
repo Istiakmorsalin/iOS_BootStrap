@@ -3,7 +3,6 @@
 //   
 //
 //  Created by Istiak on 4/16/18.
-//  Copyright © 2018 mlbd. All rights reserved.
 //
 
 import Foundation

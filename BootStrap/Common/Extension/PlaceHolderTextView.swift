@@ -2,7 +2,6 @@
 //  PlaceHolderTextView.swift
 //
 //  Created by Istiak on 2018/10/03.
-//  Copyright © 2018年 Monstar Lab Bangladesh Ltd. All rights reserved.
 //
 
 import Foundation

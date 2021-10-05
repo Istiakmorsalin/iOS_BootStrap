@@ -2,7 +2,6 @@
 //  UIImage+Circle.swift
 //
 //  Created by Istiak on 2018/11/01.
-//  Copyright © 2018年 Monstar Lab Bangladesh Ltd. All rights reserved.
 //
 
 import UIKit

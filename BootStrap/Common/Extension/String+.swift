@@ -1,8 +1,6 @@
 //
 //  String+.swift
 //
-//  Created by mlbd on 10/20/18.
-//  Copyright © 2018 Monstar Lab Bangladesh Ltd. All rights reserved.
 //
 
 import Foundation

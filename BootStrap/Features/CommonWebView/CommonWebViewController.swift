@@ -9,6 +9,7 @@
 import Foundation
 import Reusable
 import WebKit
+import SnapKit
 
 class CommonWebViewController: UIViewController, StoryboardBased, ViewModelBased {
     

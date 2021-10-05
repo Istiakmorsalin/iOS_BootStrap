@@ -2,7 +2,6 @@
 //  UIImageView+Circle.swift
 //
 //  Created by Istiak on 2018/09/27.
-//  Copyright © 2018年 Monstar Lab Bangladesh Ltd. All rights reserved.
 //
 
 import Foundation
