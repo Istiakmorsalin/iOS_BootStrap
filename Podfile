@@ -7,7 +7,6 @@ def shared_pods
   pod 'RxCocoa', '4.3.1'
   pod 'RxFlow', '1.6.0'
   pod 'Reusable', '4.0.3'
-  pod 'RxDataSources', '3.1.0'
   pod 'SwiftLint', '0.27.0'
   pod 'Alamofire', '4.7.3'
   pod 'XCGLogger', '~> 7.0.1'

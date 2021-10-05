@@ -1,7 +1,6 @@
 PODS:
   - Alamofire (4.7.3)
   - CryptoSwift (0.12.0)
-  - Differentiator (3.1.0)
   - Firebase/Core (8.6.1):
     - Firebase/CoreOnly
     - FirebaseAnalytics (~> 8.6.0)
@@ -97,10 +96,6 @@ PODS:
   - Reusable/View (4.0.3)
   - RxCocoa (4.3.1):
     - RxSwift (~> 4.0)
-  - RxDataSources (3.1.0):
-    - Differentiator (~> 3.0)
-    - RxCocoa (~> 4.0)
-    - RxSwift (~> 4.0)
   - RxFlow (1.6.0):
     - RxCocoa (>= 4.2.0)
     - RxSwift (>= 4.2.0)
@@ -125,7 +120,6 @@ DEPENDENCIES:
   - ReachabilitySwift
   - Reusable (= 4.0.3)
   - RxCocoa (= 4.3.1)
-  - RxDataSources (= 3.1.0)
   - RxFlow (= 1.6.0)
   - RxSwift (= 4.3.1)
   - SkeletonView (= 1.4.0)
@@ -139,14 +133,9 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - CryptoSwift
-    - Differentiator
     - KeychainAccess
     - ReachabilitySwift
     - Reusable
-    - RxCocoa
-    - RxDataSources
-    - RxFlow
-    - RxSwift
     - SkeletonView
     - SwiftLint
     - XLPagerTabStrip
@@ -164,6 +153,9 @@ SPEC REPOS:
     - nanopb
     - ObjcExceptionBridging
     - PromisesObjC
+    - RxCocoa
+    - RxFlow
+    - RxSwift
     - SnapKit
     - "UITextView+Placeholder"
     - XCGLogger
@@ -171,7 +163,6 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   CryptoSwift: 1c07ca50843dd48bc54e6ea53d7a4dba3b645716
-  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   Firebase: e84d95f6d3a91f634abc384f0751c434cb3aecfa
   FirebaseAnalytics: 8f32ae54ad42754f503354782575c4ddfc1425c3
   FirebaseCore: a753c231801f04f5ccd10cc92119ad1b12a61165
@@ -189,7 +180,6 @@ SPEC CHECKSUMS:
   ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
   Reusable: 12b67a60e1f3e8c523cc910795dab733f58fbc7e
   RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
-  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
   RxFlow: 80ba3d5c5bf5820c5c160cb6b2d533c3038b165d
   RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
   SkeletonView: 50f7a9b04e3a62bd0ae964859c19317fabaea367
@@ -199,6 +189,6 @@ SPEC CHECKSUMS:
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
   XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
 
-PODFILE CHECKSUM: b244f9ce2e5e9cc480e5a35ea0291b222aa5538a
+PODFILE CHECKSUM: 9741987f6f78eec16d858c9c8123390bdd3f1b50
 
 COCOAPODS: 1.10.2
