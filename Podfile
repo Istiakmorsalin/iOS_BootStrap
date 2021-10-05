@@ -11,7 +11,7 @@ def shared_pods
   pod 'SwiftLint', '0.27.0'
   pod 'Alamofire', '4.7.3'
   pod 'XCGLogger', '~> 7.0.1'
-  pod 'Kingfisher', '4.10.0'
+  pod 'Kingfisher', '~> 5.0'
   pod 'Firebase/Core'
   pod 'Firebase/DynamicLinks'
   pod 'Google-Mobile-Ads-SDK'

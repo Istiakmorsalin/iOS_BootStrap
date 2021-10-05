@@ -144,7 +144,6 @@
 		164029E621A59805001F9508 /* BasicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A20655E2109784D0045565E /* BasicCollectionViewCell.xib */; };
 		164029E721A59805001F9508 /* CommonWebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1632EF9321413F9300B5584D /* CommonWebViewController.storyboard */; };
 		164029E821A59805001F9508 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDDAEE2164ABC90000DE86 /* loader.gif */; };
-		164029EC21A59805001F9508 /* dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 162498A520F362D000779AB7 /* dev-Info.plist */; };
 		164029ED21A59805001F9508 /* MaintenanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C1CD8902146680A00A33440 /* MaintenanceViewController.xib */; };
 		164029FA21A59817001F9508 /* UploadImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9A6CB214D3CBA00FB85E5 /* UploadImageModel.swift */; };
 		164029FB21A59817001F9508 /* Date+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA99FE6211C15BB00F92E7D /* Date+Extra.swift */; };
@@ -282,7 +281,6 @@
 		16402A8D21A59817001F9508 /* BasicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A20655E2109784D0045565E /* BasicCollectionViewCell.xib */; };
 		16402A8E21A59817001F9508 /* CommonWebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1632EF9321413F9300B5584D /* CommonWebViewController.storyboard */; };
 		16402A8F21A59817001F9508 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3ACDDAEE2164ABC90000DE86 /* loader.gif */; };
-		16402A9121A59817001F9508 /* stg-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 162498C420F363D100779AB7 /* stg-Info.plist */; };
 		16402A9321A59817001F9508 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FD17AE219EBAF300C5761F /* LoginViewController.storyboard */; };
 		16402A9421A59817001F9508 /* MaintenanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C1CD8902146680A00A33440 /* MaintenanceViewController.xib */; };
 		16402AA121A59823001F9508 /* UploadImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9A6CB214D3CBA00FB85E5 /* UploadImageModel.swift */; };
@@ -412,7 +410,6 @@
 		16402B2821A59823001F9508 /* UIViewController+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D1D2120F7757800C84B55 /* UIViewController+Extra.swift */; };
 		16402B2921A59823001F9508 /* HorizontalStackScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A424321211AC5A300A805A3 /* HorizontalStackScrollView.swift */; };
 		16402B2F21A59823001F9508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A73AF1F20F31AD300703E5F /* LaunchScreen.storyboard */; };
-		16402B3021A59823001F9508 /* prod-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 162498E520F3668A00779AB7 /* prod-Info.plist */; };
 		16402B3121A59823001F9508 /* EmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AB9A6B0214B913500FB85E5 /* EmptyTableViewCell.xib */; };
 		16402B3221A59823001F9508 /* CommonWebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1632EF9321413F9300B5584D /* CommonWebViewController.storyboard */; };
 		16402B3321A59823001F9508 /* BasicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A9D1CFC20F7239400C84B55 /* BasicTableViewCell.xib */; };
@@ -1215,7 +1212,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "Monstar Lab Bangladesh Ltd.";
 			};
 			buildConfigurationList = 3A73AF0E20F31AD300703E5F /* Build configuration list for PBXProject "BootStrap" */;
@@ -1256,7 +1253,6 @@
 				164029E721A59805001F9508 /* CommonWebViewController.storyboard in Resources */,
 				164029E821A59805001F9508 /* loader.gif in Resources */,
 				16B4506121A684F1008D30B4 /* Keys.plist in Resources */,
-				164029EC21A59805001F9508 /* dev-Info.plist in Resources */,
 				164029ED21A59805001F9508 /* MaintenanceViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1276,7 +1272,6 @@
 				16402A8E21A59817001F9508 /* CommonWebViewController.storyboard in Resources */,
 				16B4506321A68513008D30B4 /* Keys.plist in Resources */,
 				16402A8F21A59817001F9508 /* loader.gif in Resources */,
-				16402A9121A59817001F9508 /* stg-Info.plist in Resources */,
 				16402A9321A59817001F9508 /* LoginViewController.storyboard in Resources */,
 				16402A9421A59817001F9508 /* MaintenanceViewController.xib in Resources */,
 				16B4506221A68510008D30B4 /* GoogleService-Info.plist in Resources */,
@@ -1288,7 +1283,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				16402B2F21A59823001F9508 /* LaunchScreen.storyboard in Resources */,
-				16402B3021A59823001F9508 /* prod-Info.plist in Resources */,
 				16402B3121A59823001F9508 /* EmptyTableViewCell.xib in Resources */,
 				16402B3221A59823001F9508 /* CommonWebViewController.storyboard in Resources */,
 				16402B3321A59823001F9508 /* BasicTableViewCell.xib in Resources */,
@@ -2075,6 +2069,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2100,7 +2095,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -2135,6 +2130,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2154,7 +2150,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;

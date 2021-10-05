@@ -69,7 +69,9 @@ PODS:
     - GoogleUtilities/Logger
   - IQKeyboardManagerSwift (6.1.1)
   - KeychainAccess (3.1.1)
-  - Kingfisher (4.10.0)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
@@ -119,7 +121,7 @@ DEPENDENCIES:
   - Google-Mobile-Ads-SDK
   - IQKeyboardManagerSwift (= 6.1.1)
   - KeychainAccess (= 3.1.1)
-  - Kingfisher (= 4.10.0)
+  - Kingfisher (~> 5.0)
   - ReachabilitySwift
   - Reusable (= 4.0.3)
   - RxCocoa (= 4.3.1)
@@ -153,7 +155,6 @@ SPEC REPOS:
     - GoogleUtilities
     - IQKeyboardManagerSwift
     - KeychainAccess
-    - Kingfisher
     - nanopb
     - Protobuf
     - ReachabilitySwift
@@ -169,6 +170,7 @@ SPEC REPOS:
     - "UITextView+Placeholder"
     - XLPagerTabStrip
   trunk:
+    - Kingfisher
     - ObjcExceptionBridging
     - XCGLogger
 
@@ -190,7 +192,7 @@ SPEC CHECKSUMS:
   GoogleUtilities: abb092d2c12e817fa3e0e7b274987dd72fb86ec3
   IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
   KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
-  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
@@ -208,6 +210,6 @@ SPEC CHECKSUMS:
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
   XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
 
-PODFILE CHECKSUM: 2643c08ffa31e78d813f2227c9b650bb8dec36b6
+PODFILE CHECKSUM: 2676218dd3a6ed19ca73fd12d497e3203318cb18
 
 COCOAPODS: 1.10.2
