@@ -106,7 +106,7 @@ class HostAPIClient {
     
     private static func performUpdateCall(route: APIRouter, imageData: Data, name: String, requestSubject: PublishSubject<Response>) {
         
-        _ = AlamofireManager.hostApiSharedManager.upload(
+        AlamofireManager.hostApiSharedManager.upload(
             multipartFormData: { multipartFormData in
                 multipartFormData.append(imageData, withName: "photo", fileName: name, mimeType: "image/png")
         },

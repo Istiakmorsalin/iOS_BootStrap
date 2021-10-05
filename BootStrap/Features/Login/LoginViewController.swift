@@ -32,7 +32,7 @@ class LoginViewController: UIViewController,StoryboardBased, ViewModelBased {
     }
     
     @IBAction func doLogin(_ sender: Any) {
-        let param = LoginParameter(email: email.text!, password: password.text!)
+        _ = LoginParameter(email: email.text!, password: password.text!)
         //viewModel.requestLogin.onNext(param)
         self.progressLoader.showLoader()
         self.viewModel.navigateToHome()

@@ -44,7 +44,7 @@ class TimeFormatter {
             return result
         }
         
-        let hours = setZeroPadding(timeComponent: timeComponents["hours"] as? Int, delimiter: false)
+        _ = setZeroPadding(timeComponent: timeComponents["hours"] as? Int, delimiter: false)
         let minutes = setZeroPadding(timeComponent: timeComponents["minutes"] as? Int, delimiter: false)
         let seconds = setZeroPadding(timeComponent: timeComponents["seconds"] as? Int, delimiter: true)
         

@@ -989,7 +989,6 @@
 				16402A8321A59817001F9508 /* Frameworks */,
 				16402A8521A59817001F9508 /* Resources */,
 				16402A9521A59817001F9508 /* [CP] Embed Pods Frameworks */,
-				16402A9621A59817001F9508 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1010,7 +1009,6 @@
 				16402B2A21A59823001F9508 /* Frameworks */,
 				16402B2C21A59823001F9508 /* Resources */,
 				16402B3C21A59823001F9508 /* [CP] Embed Pods Frameworks */,
-				16402B3D21A59823001F9508 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1207,20 +1205,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stg/Pods-stg-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		16402A9621A59817001F9508 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" b29d08eacd4588cc008cd420b9b480d794190c2f 487df6b20853ee7a88c5a4727fc8077aae1676479491d81643c53783ced681bf\n";
-		};
 		16402A9E21A59823001F9508 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1269,20 +1253,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-prod/Pods-prod-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		16402B3D21A59823001F9508 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" b29d08eacd4588cc008cd420b9b480d794190c2f 487df6b20853ee7a88c5a4727fc8077aae1676479491d81643c53783ced681bf\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

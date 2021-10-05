@@ -3,7 +3,6 @@
 //   
 //
 //  Created by Istiak on 9/7/18.
-//  Copyright © 2018 Monstar Lab Bangladesh Ltd. All rights reserved.
 //
 
 import Foundation
@@ -48,7 +47,7 @@ class ErrorHandler {
             
             errorAlert.view.tintColor = #colorLiteral(red: 0.9411764706, green: 0.4156862745, blue: 0.6039215686, alpha: 1)
             
-            errorAlert.addAction(UIAlertAction(title: "OK",  style: .default, handler: { [weak self] _ in
+            errorAlert.addAction(UIAlertAction(title: "OK",  style: .default, handler: {_ in
               
             }))
             
