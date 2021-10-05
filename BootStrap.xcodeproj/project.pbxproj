@@ -983,6 +983,11 @@
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "Monstar Lab Bangladesh Ltd.";
+				TargetAttributes = {
+					1640294E21A59805001F9508 = {
+						LastSwiftMigration = 1300;
+					};
+				};
 			};
 			buildConfigurationList = 3A73AF0E20F31AD300703E5F /* Build configuration list for PBXProject "BootStrap" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -1573,7 +1578,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = none;
 				SWIFT_OBJC_BRIDGING_HEADER = "BootStrap/Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1598,7 +1603,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = none;
 				SWIFT_OBJC_BRIDGING_HEADER = "BootStrap/Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

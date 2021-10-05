@@ -43,7 +43,7 @@ class ErrorHandler {
     }
     
     private func showErrorView(text: String, viewController: UIViewController) {
-            let errorAlert = UIAlertController(title: nil, message: text, preferredStyle: UIAlertControllerStyle.alert)
+            let errorAlert = UIAlertController(title: nil, message: text, preferredStyle: UIAlertController.Style.alert)
             
             errorAlert.view.tintColor = #colorLiteral(red: 0.9411764706, green: 0.4156862745, blue: 0.6039215686, alpha: 1)
             

@@ -29,34 +29,34 @@ extension UIView {
         view.translatesAutoresizingMaskIntoConstraints = false
 
         let horizontalConstraint = NSLayoutConstraint(item: view,
-                                                      attribute: NSLayoutAttribute.leading,
-                                                      relatedBy: NSLayoutRelation.equal,
+                                                      attribute: NSLayoutConstraint.Attribute.leading,
+                                                      relatedBy: NSLayoutConstraint.Relation.equal,
                                                       toItem: self,
-                                                      attribute: NSLayoutAttribute.leading,
+                                                      attribute: NSLayoutConstraint.Attribute.leading,
                                                       multiplier: 1,
                                                       constant: 0)
 
         let verticalConstraint = NSLayoutConstraint(item: view,
-                                                    attribute: NSLayoutAttribute.top,
-                                                    relatedBy: NSLayoutRelation.equal,
+                                                    attribute: NSLayoutConstraint.Attribute.top,
+                                                    relatedBy: NSLayoutConstraint.Relation.equal,
                                                     toItem: self,
-                                                    attribute: NSLayoutAttribute.top,
+                                                    attribute: NSLayoutConstraint.Attribute.top,
                                                     multiplier: 1,
                                                     constant: 0)
 
         let trailingConstraint = NSLayoutConstraint(item: view,
-                                                    attribute: NSLayoutAttribute.trailing,
-                                                    relatedBy: NSLayoutRelation.equal,
+                                                    attribute: NSLayoutConstraint.Attribute.trailing,
+                                                    relatedBy: NSLayoutConstraint.Relation.equal,
                                                     toItem: self,
-                                                    attribute: NSLayoutAttribute.trailing,
+                                                    attribute: NSLayoutConstraint.Attribute.trailing,
                                                     multiplier: 1,
                                                     constant: 0)
 
         let bottomConstraint = NSLayoutConstraint(item: view,
-                                                  attribute: NSLayoutAttribute.bottom,
-                                                  relatedBy: NSLayoutRelation.equal,
+                                                  attribute: NSLayoutConstraint.Attribute.bottom,
+                                                  relatedBy: NSLayoutConstraint.Relation.equal,
                                                   toItem: self,
-                                                  attribute: NSLayoutAttribute.bottom,
+                                                  attribute: NSLayoutConstraint.Attribute.bottom,
                                                   multiplier: 1,
                                                   constant: 0)
 

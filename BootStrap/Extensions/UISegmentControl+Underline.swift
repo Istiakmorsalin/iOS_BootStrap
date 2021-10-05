@@ -18,8 +18,8 @@ extension UISegmentedControl {
 
         let deviderImage = UIImage.from(color: UIColor.white.cgColor, andSize: CGSize(width: 1.0, height: self.bounds.size.height))
         self.setDividerImage(deviderImage, forLeftSegmentState: .selected, rightSegmentState: .normal, barMetrics: .default)
-        self.setTitleTextAttributes([NSAttributedStringKey.foregroundColor: #colorLiteral(red: 0.4509803922, green: 0.4509803922, blue: 0.4509803922, alpha: 1) ], for: .normal)
-        self.setTitleTextAttributes([NSAttributedStringKey.foregroundColor: #colorLiteral(red: 0.1450980392, green: 0.1450980392, blue: 0.1450980392, alpha: 1)], for: .selected)
+        self.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.4509803922, green: 0.4509803922, blue: 0.4509803922, alpha: 1) ], for: .normal)
+        self.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.1450980392, green: 0.1450980392, blue: 0.1450980392, alpha: 1)], for: .selected)
     }
 
     func addUnderline() {

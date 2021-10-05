@@ -167,7 +167,7 @@ class PersistenceManager: PersistenceManagerType {
     func saveImage(_ image: UIImage, name: String) {
         let fileManager = FileManager.default
         let path = paths as NSString
-        let imageData = UIImageJPEGRepresentation(image, 0.5)
+        let imageData = image.jpegData(compressionQuality: 0.5)
         fileManager.createFile(atPath: path.appendingPathComponent(name) as String, contents: imageData, attributes: nil)
     }
 

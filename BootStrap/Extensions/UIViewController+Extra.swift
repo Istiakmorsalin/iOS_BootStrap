@@ -58,8 +58,8 @@ public extension UIViewController {
     func backAction(buttonTitle: String, action: Selector) {
         let backButtonItem = UIBarButtonItem(title: Localised(buttonTitle), style: .plain, target: self, action: action)
         backButtonItem.setTitleTextAttributes([
-            NSAttributedStringKey.font : UIFont(name: "HiraginoSans-W3", size: 14)!,
-            NSAttributedStringKey.foregroundColor : #colorLiteral(red: 0.1450980392, green: 0.1450980392, blue: 0.1450980392, alpha: 1)
+            NSAttributedString.Key.font : UIFont(name: "HiraginoSans-W3", size: 14)!,
+            NSAttributedString.Key.foregroundColor : #colorLiteral(red: 0.1450980392, green: 0.1450980392, blue: 0.1450980392, alpha: 1)
             ], for: .normal)
         self.navigationItem.leftBarButtonItem = backButtonItem
     }
@@ -74,38 +74,13 @@ public extension UIViewController {
     func rightAction(buttonTitle title: String, action: Selector) {
         let rightButtonItem = UIBarButtonItem(title: Localised(title), style: .plain, target: self, action: action)
         rightButtonItem.setTitleTextAttributes([
-            NSAttributedStringKey.font : UIFont(name: "HiraginoSans-W3", size: 14)!,
-            NSAttributedStringKey.foregroundColor : #colorLiteral(red: 0.9960784314, green: 0.3803921569, blue: 0.6392156863, alpha: 1)
+            NSAttributedString.Key.font : UIFont(name: "HiraginoSans-W3", size: 14)!,
+            NSAttributedString.Key.foregroundColor : #colorLiteral(red: 0.9960784314, green: 0.3803921569, blue: 0.6392156863, alpha: 1)
             ], for: .normal)
         self.navigationItem.rightBarButtonItem = rightButtonItem
     }
 
     func showNotificationPermissionAlert(_ handler: ((UIAlertAction) -> Void)?) {
-        let settingsAction = Localised("Settings")
-        let cancelAction = Localised("Cancel")
-        let message = Localised("Your need to give a permission from notification settings.")
-        let alertController = UIAlertController(title: "", message: message, preferredStyle: UIAlertControllerStyle.alert)
-
-        alertController.addAction(UIAlertAction(title: settingsAction, style: .default, handler: {_ in
-            DispatchQueue.main.async {
-                guard let settingsUrl = URL(string: UIApplicationOpenSettingsURLString) else {
-                    return
-                }
-
-                if UIApplication.shared.canOpenURL(settingsUrl) {
-                    if #available(iOS 10.0, *) {
-                        UIApplication.shared.open(settingsUrl, completionHandler: {_ in
-                        })
-                    } else {
-                        UIApplication.shared.openURL(settingsUrl as URL)
-                    }
-                }
-            }
-        }))
-
-        alertController.addAction(UIAlertAction(title: cancelAction, style: .cancel, handler: handler))
-
-        present(alertController, animated: true, completion: nil)
     }
 
 }
@@ -126,4 +101,9 @@ extension UIViewController {
         }
         return _tabbar.bounds.height
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToUIApplicationOpenExternalURLOptionsKeyDictionary(_ input: [String: Any]) -> [UIApplication.OpenExternalURLOptionsKey: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (UIApplication.OpenExternalURLOptionsKey(rawValue: key), value)})
 }

@@ -45,7 +45,7 @@ import UIKit
         self.configureBorder()
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(textChanged),
-                                               name: .UITextViewTextDidChange,
+                                               name: UITextView.textDidChangeNotification,
                                                object: nil)
     }
 
