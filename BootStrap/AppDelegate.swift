@@ -11,7 +11,6 @@ import RxSwift
 import RxCocoa
 import XCGLogger
 import Firebase
-import GoogleMobileAds
 import IQKeyboardManagerSwift
 
 let log: XCGLogger = {
@@ -69,8 +68,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setupCrashlytics()
         setupFirebase()
         setupGoogleAnalytics()
-        setupAdMob()
-        setupAppsFlyer()
         IQKeyboardManager.shared.enable = true
         
         guard let window = self.window else { return false }
@@ -113,14 +110,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func setupGoogleAnalytics() {
     }
 
-    func setupAdMob() {
-        let addMobAppID = keyManager.provideAdMobAppID()
-        GADMobileAds.configure(withApplicationID:addMobAppID)
-    }
-
     func setupAppsFlyer() {
         
     }
 
 }
-

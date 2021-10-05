@@ -15,7 +15,7 @@ import RxSwift
 public extension UIViewController {
 
     /// - Parameter tableView: UITableView to be delected.
-    public func smoothlyDeselectRows(tableView: UITableView) {
+    func smoothlyDeselectRows(tableView: UITableView) {
         let selectedIndexPaths = tableView.indexPathsForSelectedRows ?? []
 
         if let coordinator = transitionCoordinator {
@@ -37,13 +37,13 @@ public extension UIViewController {
         }
     }
 
-    public func showAlert(title: String, message: String, handler: ((UIAlertAction) -> Swift.Void)? = nil) {
+    func showAlert(title: String, message: String, handler: ((UIAlertAction) -> Swift.Void)? = nil) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: handler))
         self.present(alert, animated: true, completion: nil)
     }
 
-    public func showRetryAlert(_ handler: ((UIAlertAction) -> Void)?) {
+    func showRetryAlert(_ handler: ((UIAlertAction) -> Void)?) {
         let alert = UIAlertController(title: Localised("No Internet"), message: Localised("Please try again"), preferredStyle: .alert)
         let retryAction = UIAlertAction(title: Localised("Retry"), style: .default, handler: handler)
         alert.addAction(retryAction)
@@ -86,7 +86,7 @@ public extension UIViewController {
         let message = Localised("Your need to give a permission from notification settings.")
         let alertController = UIAlertController(title: "", message: message, preferredStyle: UIAlertControllerStyle.alert)
 
-        alertController.addAction(UIAlertAction(title: settingsAction, style: .default, handler: { (action: UIAlertAction) in
+        alertController.addAction(UIAlertAction(title: settingsAction, style: .default, handler: {_ in
             DispatchQueue.main.async {
                 guard let settingsUrl = URL(string: UIApplicationOpenSettingsURLString) else {
                     return
@@ -94,7 +94,7 @@ public extension UIViewController {
 
                 if UIApplication.shared.canOpenURL(settingsUrl) {
                     if #available(iOS 10.0, *) {
-                        UIApplication.shared.open(settingsUrl, completionHandler: { (success) in
+                        UIApplication.shared.open(settingsUrl, completionHandler: {_ in
                         })
                     } else {
                         UIApplication.shared.openURL(settingsUrl as URL)

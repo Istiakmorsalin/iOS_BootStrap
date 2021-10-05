@@ -3,84 +3,94 @@ PODS:
   - AMScrollingNavbar (5.1.0)
   - CryptoSwift (0.12.0)
   - Differentiator (3.1.0)
-  - Firebase/Core (5.11.0):
+  - Firebase/Core (8.6.1):
     - Firebase/CoreOnly
-    - FirebaseAnalytics (= 5.3.0)
-  - Firebase/CoreOnly (5.11.0):
-    - FirebaseCore (= 5.1.6)
-  - Firebase/DynamicLinks (5.11.0):
-    - Firebase/CoreOnly
-    - FirebaseDynamicLinks (= 3.1.1)
-  - Firebase/Messaging (5.11.0):
-    - Firebase/CoreOnly
-    - FirebaseMessaging (= 3.2.1)
-  - FirebaseAnalytics (5.3.0):
-    - FirebaseCore (~> 5.1)
-    - FirebaseInstanceID (~> 3.3)
-    - GoogleAppMeasurement (~> 5.3)
-    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
-    - GoogleUtilities/MethodSwizzler (~> 5.2)
-    - GoogleUtilities/Network (~> 5.2)
-    - "GoogleUtilities/NSData+zlib (~> 5.2)"
-    - nanopb (~> 0.3)
-  - FirebaseAnalyticsInterop (1.1.0)
-  - FirebaseCore (5.1.6):
-    - GoogleUtilities/Logger (~> 5.2)
-  - FirebaseDynamicLinks (3.1.1):
-    - FirebaseAnalytics (~> 5.1)
-    - FirebaseAnalyticsInterop (~> 1.0)
-    - FirebaseCore (~> 5.1)
-  - FirebaseInstanceID (3.3.0):
-    - FirebaseCore (~> 5.1)
-    - GoogleUtilities/Environment (~> 5.3)
-    - GoogleUtilities/UserDefaults (~> 5.3)
-  - FirebaseMessaging (3.2.1):
-    - FirebaseAnalyticsInterop (~> 1.1)
-    - FirebaseCore (~> 5.1)
-    - FirebaseInstanceID (~> 3.0)
-    - GoogleUtilities/Environment (~> 5.2)
-    - GoogleUtilities/Reachability (~> 5.2)
-    - Protobuf (~> 3.1)
+    - FirebaseAnalytics (~> 8.6.0)
+  - Firebase/CoreOnly (8.6.1):
+    - FirebaseCore (= 8.6.1)
+  - FirebaseAnalytics (8.6.0):
+    - FirebaseAnalytics/AdIdSupport (= 8.6.0)
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (8.6.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleAppMeasurement (= 8.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseCore (8.6.1):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.6.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (8.6.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+    - PromisesObjC (< 3.0, >= 1.2)
   - Gifu (3.2.0)
-  - Google-Mobile-Ads-SDK (7.35.1)
-  - GoogleAppMeasurement (5.3.0):
-    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
-    - GoogleUtilities/MethodSwizzler (~> 5.2)
-    - GoogleUtilities/Network (~> 5.2)
-    - "GoogleUtilities/NSData+zlib (~> 5.2)"
-    - nanopb (~> 0.3)
-  - GoogleUtilities/AppDelegateSwizzler (5.3.4):
+  - GoogleAppMeasurement (8.6.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (8.6.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.1.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.5.1):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (5.3.4)
-  - GoogleUtilities/Logger (5.3.4):
+  - GoogleUtilities/Environment (7.5.1):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.5.1):
     - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (5.3.4):
+  - GoogleUtilities/MethodSwizzler (7.5.1):
     - GoogleUtilities/Logger
-  - GoogleUtilities/Network (5.3.4):
+  - GoogleUtilities/Network (7.5.1):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (5.3.4)"
-  - GoogleUtilities/Reachability (5.3.4):
+  - "GoogleUtilities/NSData+zlib (7.5.1)"
+  - GoogleUtilities/Reachability (7.5.1):
     - GoogleUtilities/Logger
-  - GoogleUtilities/UserDefaults (5.3.4):
+  - GoogleUtilities/UserDefaults (7.5.1):
     - GoogleUtilities/Logger
-  - IQKeyboardManagerSwift (6.1.1)
+  - IQKeyboardManagerSwift (6.3.0)
   - KeychainAccess (3.1.1)
   - Kingfisher (5.15.8):
     - Kingfisher/Core (= 5.15.8)
   - Kingfisher/Core (5.15.8)
-  - nanopb (0.3.901):
-    - nanopb/decode (= 0.3.901)
-    - nanopb/encode (= 0.3.901)
-  - nanopb/decode (0.3.901)
-  - nanopb/encode (0.3.901)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
   - ObjcExceptionBridging (1.0.1):
     - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
   - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
-  - Protobuf (3.6.1)
+  - PromisesObjC (2.0.0)
   - ReachabilitySwift (4.3.0)
   - Reusable (4.0.3):
     - Reusable/Storyboard (= 4.0.3)
@@ -96,9 +106,6 @@ PODS:
   - RxFlow (1.6.0):
     - RxCocoa (>= 4.2.0)
     - RxSwift (>= 4.2.0)
-  - RxGesture (2.0.1):
-    - RxCocoa (~> 4.3.1)
-    - RxSwift (~> 4.3.1)
   - RxSwift (4.3.1)
   - SkeletonView (1.4)
   - SnapKit (5.0.1)
@@ -115,11 +122,8 @@ DEPENDENCIES:
   - AMScrollingNavbar (= 5.1.0)
   - CryptoSwift (= 0.12.0)
   - Firebase/Core
-  - Firebase/DynamicLinks
-  - Firebase/Messaging
   - Gifu (= 3.2.0)
-  - Google-Mobile-Ads-SDK
-  - IQKeyboardManagerSwift (= 6.1.1)
+  - IQKeyboardManagerSwift (= 6.3.0)
   - KeychainAccess (= 3.1.1)
   - Kingfisher (~> 5.0)
   - ReachabilitySwift
@@ -127,7 +131,6 @@ DEPENDENCIES:
   - RxCocoa (= 4.3.1)
   - RxDataSources (= 3.1.0)
   - RxFlow (= 1.6.0)
-  - RxGesture (= 2.0.1)
   - RxSwift (= 4.3.1)
   - SkeletonView (= 1.4.0)
   - SnapKit (~> 5.0.0)
@@ -142,35 +145,32 @@ SPEC REPOS:
     - AMScrollingNavbar
     - CryptoSwift
     - Differentiator
-    - Firebase
-    - FirebaseAnalytics
-    - FirebaseAnalyticsInterop
-    - FirebaseCore
-    - FirebaseDynamicLinks
-    - FirebaseInstanceID
-    - FirebaseMessaging
     - Gifu
-    - Google-Mobile-Ads-SDK
-    - GoogleAppMeasurement
-    - GoogleUtilities
-    - IQKeyboardManagerSwift
     - KeychainAccess
-    - nanopb
-    - Protobuf
     - ReachabilitySwift
     - Reusable
     - RxCocoa
     - RxDataSources
     - RxFlow
-    - RxGesture
     - RxSwift
     - SkeletonView
     - SwiftLint
     - "UITextView+Placeholder"
     - XLPagerTabStrip
   trunk:
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - IQKeyboardManagerSwift
     - Kingfisher
+    - nanopb
     - ObjcExceptionBridging
+    - PromisesObjC
     - SnapKit
     - XCGLogger
 
@@ -179,29 +179,26 @@ SPEC CHECKSUMS:
   AMScrollingNavbar: e10b5e259a3d7fea30ed537cd57e6ba4fbb23d65
   CryptoSwift: 1c07ca50843dd48bc54e6ea53d7a4dba3b645716
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
-  Firebase: b48f9e653da971ecce5b8c749684bc8bb2d26bd3
-  FirebaseAnalytics: 63202d2665de4e6adcbdce189135255d8b5962ba
-  FirebaseAnalyticsInterop: e5f21be9af6548372e2f0815834ff909bff395a2
-  FirebaseCore: d16552f06821489ce1affe2e5e3e5593402ddfe3
-  FirebaseDynamicLinks: 000130a3fc3d81ac7322731b895009f3199ef584
-  FirebaseInstanceID: e2fa4cb35ef5558c200f7f0ad8a53e212215f93e
-  FirebaseMessaging: 0f14a264b0d7f867e8eff5d3556bc5d0d4e57888
+  Firebase: e84d95f6d3a91f634abc384f0751c434cb3aecfa
+  FirebaseAnalytics: 8f32ae54ad42754f503354782575c4ddfc1425c3
+  FirebaseCore: a753c231801f04f5ccd10cc92119ad1b12a61165
+  FirebaseCoreDiagnostics: 3721920bde3a9a6d5aa093c1d25e9d3e47f694af
+  FirebaseInstallations: 0ede6ffcd215b8f93c19d9b06c1c54e2d4107e98
   Gifu: 7bcb6427457d85e0b4dff5a84ec5947ac19a93ea
-  Google-Mobile-Ads-SDK: 151d5e87b4a0ae6d7d07e2cd8d55d1b41ea2e61e
-  GoogleAppMeasurement: 5029d78f2b438bd30ffb44e6c558b57c21622727
-  GoogleUtilities: abb092d2c12e817fa3e0e7b274987dd72fb86ec3
-  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  GoogleAppMeasurement: 2c0c6e2a7ab3fe730ade6379f732bdefb46f50b0
+  GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
+  GoogleUtilities: 3df19e3c24f7bbc291d8b5809aa6b0d41e642437
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
   KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
   Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
-  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
-  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
   Reusable: 12b67a60e1f3e8c523cc910795dab733f58fbc7e
   RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
   RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
   RxFlow: 80ba3d5c5bf5820c5c160cb6b2d533c3038b165d
-  RxGesture: 26ede4ed13ffc6336d29dbd9a8dff229bdb72de7
   RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
   SkeletonView: 50f7a9b04e3a62bd0ae964859c19317fabaea367
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
@@ -210,6 +207,6 @@ SPEC CHECKSUMS:
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
   XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
 
-PODFILE CHECKSUM: cf1c7ee1d12e0979bdcadcf241ebaa9ef184aa96
+PODFILE CHECKSUM: 802f5e696a302e90c2f1b91776255c15f93bf32c
 
 COCOAPODS: 1.10.2

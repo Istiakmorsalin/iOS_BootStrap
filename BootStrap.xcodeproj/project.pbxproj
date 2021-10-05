@@ -112,7 +112,6 @@
 		164029C121A59805001F9508 /* HTTPStatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1665332A20FCA0A000D948AB /* HTTPStatusCodes.swift */; };
 		164029C221A59805001F9508 /* UserUpdateParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B06ECF2108767800A51639 /* UserUpdateParameter.swift */; };
 		164029C321A59805001F9508 /* SkeletonGridViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D81AE213E64FD00C78F16 /* SkeletonGridViewPresenter.swift */; };
-		164029C421A59805001F9508 /* AdBannerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1F140C2151E66C008FF54D /* AdBannerHelper.swift */; };
 		164029C521A59805001F9508 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF4320F32B8B00703E5F /* UIView+Extension.swift */; };
 		164029C621A59805001F9508 /* BasicListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C248E52121B4320013CF61 /* BasicListViewPresenter.swift */; };
 		164029C721A59805001F9508 /* Sortable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169D467D215904F2001A1847 /* Sortable.swift */; };
@@ -120,7 +119,6 @@
 		164029C921A59805001F9508 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A096A6D20F8B97900305595 /* BorderButton.swift */; };
 		164029CA21A59805001F9508 /* ErrorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C10BB4D2106D74000E9C217 /* ErrorDetails.swift */; };
 		164029CB21A59805001F9508 /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50C55620FDEF35000508DB /* CheckMarkView.swift */; };
-		164029CC21A59805001F9508 /* DynamicLinkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB0B48214BB903002DF560 /* DynamicLinkHelper.swift */; };
 		164029CE21A59805001F9508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF1620F31AD300703E5F /* AppDelegate.swift */; };
 		164029CF21A59805001F9508 /* BasicGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604C46B211972F1002D3F2E /* BasicGridView.swift */; };
 		164029D021A59805001F9508 /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D1CFB20F7239400C84B55 /* BasicTableViewCell.swift */; };
@@ -249,7 +247,6 @@
 		16402A6821A59817001F9508 /* HTTPStatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1665332A20FCA0A000D948AB /* HTTPStatusCodes.swift */; };
 		16402A6921A59817001F9508 /* UserUpdateParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B06ECF2108767800A51639 /* UserUpdateParameter.swift */; };
 		16402A6A21A59817001F9508 /* SkeletonGridViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D81AE213E64FD00C78F16 /* SkeletonGridViewPresenter.swift */; };
-		16402A6B21A59817001F9508 /* AdBannerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1F140C2151E66C008FF54D /* AdBannerHelper.swift */; };
 		16402A6C21A59817001F9508 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF4320F32B8B00703E5F /* UIView+Extension.swift */; };
 		16402A6D21A59817001F9508 /* BasicListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C248E52121B4320013CF61 /* BasicListViewPresenter.swift */; };
 		16402A6E21A59817001F9508 /* Sortable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169D467D215904F2001A1847 /* Sortable.swift */; };
@@ -257,7 +254,6 @@
 		16402A7021A59817001F9508 /* LoginParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FD17BA219EBE4300C5761F /* LoginParameter.swift */; };
 		16402A7121A59817001F9508 /* ErrorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C10BB4D2106D74000E9C217 /* ErrorDetails.swift */; };
 		16402A7221A59817001F9508 /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50C55620FDEF35000508DB /* CheckMarkView.swift */; };
-		16402A7321A59817001F9508 /* DynamicLinkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB0B48214BB903002DF560 /* DynamicLinkHelper.swift */; };
 		16402A7421A59817001F9508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF1620F31AD300703E5F /* AppDelegate.swift */; };
 		16402A7621A59817001F9508 /* BasicGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604C46B211972F1002D3F2E /* BasicGridView.swift */; };
 		16402A7721A59817001F9508 /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D1CFB20F7239400C84B55 /* BasicTableViewCell.swift */; };
@@ -388,7 +384,6 @@
 		16402B1121A59823001F9508 /* HTTPStatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1665332A20FCA0A000D948AB /* HTTPStatusCodes.swift */; };
 		16402B1221A59823001F9508 /* UserUpdateParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B06ECF2108767800A51639 /* UserUpdateParameter.swift */; };
 		16402B1321A59823001F9508 /* SkeletonGridViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D81AE213E64FD00C78F16 /* SkeletonGridViewPresenter.swift */; };
-		16402B1421A59823001F9508 /* AdBannerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1F140C2151E66C008FF54D /* AdBannerHelper.swift */; };
 		16402B1521A59823001F9508 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF4320F32B8B00703E5F /* UIView+Extension.swift */; };
 		16402B1621A59823001F9508 /* BasicListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C248E52121B4320013CF61 /* BasicListViewPresenter.swift */; };
 		16402B1721A59823001F9508 /* LoginParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FD17BA219EBE4300C5761F /* LoginParameter.swift */; };
@@ -396,7 +391,6 @@
 		16402B1921A59823001F9508 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A096A6D20F8B97900305595 /* BorderButton.swift */; };
 		16402B1A21A59823001F9508 /* ErrorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C10BB4D2106D74000E9C217 /* ErrorDetails.swift */; };
 		16402B1B21A59823001F9508 /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50C55620FDEF35000508DB /* CheckMarkView.swift */; };
-		16402B1D21A59823001F9508 /* DynamicLinkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFB0B48214BB903002DF560 /* DynamicLinkHelper.swift */; };
 		16402B1E21A59823001F9508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF1620F31AD300703E5F /* AppDelegate.swift */; };
 		16402B1F21A59823001F9508 /* BasicGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604C46B211972F1002D3F2E /* BasicGridView.swift */; };
 		16402B2021A59823001F9508 /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D1CFB20F7239400C84B55 /* BasicTableViewCell.swift */; };
@@ -586,7 +580,6 @@
 		9C1CD8902146680A00A33440 /* MaintenanceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaintenanceViewController.xib; sourceTree = "<group>"; };
 		9C1CD8942146681B00A33440 /* MaintenanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceViewController.swift; sourceTree = "<group>"; };
 		9C1CD898214679F200A33440 /* UIViewController+TopMostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopMostViewController.swift"; sourceTree = "<group>"; };
-		9C1F140C2151E66C008FF54D /* AdBannerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerHelper.swift; sourceTree = "<group>"; };
 		9C1F141021524C03008FF54D /* FirebaseEventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseEventList.swift; sourceTree = "<group>"; };
 		9C1F141421524D53008FF54D /* AppsFlyerEventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerEventList.swift; sourceTree = "<group>"; };
 		9C1F141821524D72008FF54D /* ScreenList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenList.swift; sourceTree = "<group>"; };
@@ -596,7 +589,6 @@
 		9C2FDEEC2191391B008A235B /* DynamicLinkDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLinkDomain.swift; sourceTree = "<group>"; };
 		9C9AC8052102F761007BA433 /* Parameterizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameterizable.swift; sourceTree = "<group>"; };
 		9C9E45B9213B9C3700327BB2 /* ProgressLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoader.swift; sourceTree = "<group>"; };
-		9CFB0B48214BB903002DF560 /* DynamicLinkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLinkHelper.swift; sourceTree = "<group>"; };
 		AED67094F8B8776D957DE890 /* Pods-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dev/Pods-dev.debug.xcconfig"; sourceTree = "<group>"; };
 		C693D2EFFD9B5D344C2DDA8B /* Pods-prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prod.release.xcconfig"; path = "Pods/Target Support Files/Pods-prod/Pods-prod.release.xcconfig"; sourceTree = "<group>"; };
 		CA5624C921648CC7000D3EC2 /* PlaceHolderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextView.swift; sourceTree = "<group>"; };
@@ -1006,8 +998,6 @@
 			isa = PBXGroup;
 			children = (
 				CA9BFB6C215CAD9E00562D4D /* Extension */,
-				9C1F140B2151E653008FF54D /* AdBanner */,
-				9CFB0B47214BB8EB002DF560 /* DynamicLink */,
 				9C0C8D9421426E3E009183C3 /* ErrorView */,
 				1665335F20FCB65D00D948AB /* K.swift */,
 				9C9E45B8213B9C1200327BB2 /* Loader */,
@@ -1092,28 +1082,12 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
-		9C1F140B2151E653008FF54D /* AdBanner */ = {
-			isa = PBXGroup;
-			children = (
-				9C1F140C2151E66C008FF54D /* AdBannerHelper.swift */,
-			);
-			path = AdBanner;
-			sourceTree = "<group>";
-		};
 		9C9E45B8213B9C1200327BB2 /* Loader */ = {
 			isa = PBXGroup;
 			children = (
 				9C9E45B9213B9C3700327BB2 /* ProgressLoader.swift */,
 			);
 			path = Loader;
-			sourceTree = "<group>";
-		};
-		9CFB0B47214BB8EB002DF560 /* DynamicLink */ = {
-			isa = PBXGroup;
-			children = (
-				9CFB0B48214BB903002DF560 /* DynamicLinkHelper.swift */,
-			);
-			path = DynamicLink;
 			sourceTree = "<group>";
 		};
 		CA9BFB6C215CAD9E00562D4D /* Extension */ = {
@@ -1590,7 +1564,6 @@
 				164029C121A59805001F9508 /* HTTPStatusCodes.swift in Sources */,
 				164029C221A59805001F9508 /* UserUpdateParameter.swift in Sources */,
 				164029C321A59805001F9508 /* SkeletonGridViewPresenter.swift in Sources */,
-				164029C421A59805001F9508 /* AdBannerHelper.swift in Sources */,
 				164029C521A59805001F9508 /* UIView+Extension.swift in Sources */,
 				164029C621A59805001F9508 /* BasicListViewPresenter.swift in Sources */,
 				164029C721A59805001F9508 /* Sortable.swift in Sources */,
@@ -1599,7 +1572,6 @@
 				16B4507021A6A1BF008D30B4 /* HomeViewModel.swift in Sources */,
 				164029CA21A59805001F9508 /* ErrorDetails.swift in Sources */,
 				164029CB21A59805001F9508 /* CheckMarkView.swift in Sources */,
-				164029CC21A59805001F9508 /* DynamicLinkHelper.swift in Sources */,
 				164029CE21A59805001F9508 /* AppDelegate.swift in Sources */,
 				164029CF21A59805001F9508 /* BasicGridView.swift in Sources */,
 				164029D021A59805001F9508 /* BasicTableViewCell.swift in Sources */,
@@ -1725,7 +1697,6 @@
 				16402A6821A59817001F9508 /* HTTPStatusCodes.swift in Sources */,
 				16402A6921A59817001F9508 /* UserUpdateParameter.swift in Sources */,
 				16402A6A21A59817001F9508 /* SkeletonGridViewPresenter.swift in Sources */,
-				16402A6B21A59817001F9508 /* AdBannerHelper.swift in Sources */,
 				16402A6C21A59817001F9508 /* UIView+Extension.swift in Sources */,
 				16402A6D21A59817001F9508 /* BasicListViewPresenter.swift in Sources */,
 				16402A6E21A59817001F9508 /* Sortable.swift in Sources */,
@@ -1734,7 +1705,6 @@
 				16402A7121A59817001F9508 /* ErrorDetails.swift in Sources */,
 				16B4507121A6A1BF008D30B4 /* HomeViewModel.swift in Sources */,
 				16402A7221A59817001F9508 /* CheckMarkView.swift in Sources */,
-				16402A7321A59817001F9508 /* DynamicLinkHelper.swift in Sources */,
 				16402A7421A59817001F9508 /* AppDelegate.swift in Sources */,
 				16402A7621A59817001F9508 /* BasicGridView.swift in Sources */,
 				16402A7721A59817001F9508 /* BasicTableViewCell.swift in Sources */,
@@ -1863,7 +1833,6 @@
 				16402B1121A59823001F9508 /* HTTPStatusCodes.swift in Sources */,
 				16402B1221A59823001F9508 /* UserUpdateParameter.swift in Sources */,
 				16402B1321A59823001F9508 /* SkeletonGridViewPresenter.swift in Sources */,
-				16402B1421A59823001F9508 /* AdBannerHelper.swift in Sources */,
 				16402B1521A59823001F9508 /* UIView+Extension.swift in Sources */,
 				16402B1621A59823001F9508 /* BasicListViewPresenter.swift in Sources */,
 				16402B1721A59823001F9508 /* LoginParameter.swift in Sources */,
@@ -1871,7 +1840,6 @@
 				16402B1921A59823001F9508 /* BorderButton.swift in Sources */,
 				16402B1A21A59823001F9508 /* ErrorDetails.swift in Sources */,
 				16402B1B21A59823001F9508 /* CheckMarkView.swift in Sources */,
-				16402B1D21A59823001F9508 /* DynamicLinkHelper.swift in Sources */,
 				16402B1E21A59823001F9508 /* AppDelegate.swift in Sources */,
 				16402B1F21A59823001F9508 /* BasicGridView.swift in Sources */,
 				16402B2021A59823001F9508 /* BasicTableViewCell.swift in Sources */,
