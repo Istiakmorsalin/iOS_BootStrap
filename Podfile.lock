@@ -101,7 +101,7 @@ PODS:
     - RxSwift (~> 4.3.1)
   - RxSwift (4.3.1)
   - SkeletonView (1.4)
-  - SnapKit (4.0.1)
+  - SnapKit (5.0.1)
   - SwiftLint (0.27.0)
   - "UITextView+Placeholder (1.2.1)"
   - XCGLogger (7.0.1):
@@ -130,7 +130,7 @@ DEPENDENCIES:
   - RxGesture (= 2.0.1)
   - RxSwift (= 4.3.1)
   - SkeletonView (= 1.4.0)
-  - SnapKit (= 4.0.1)
+  - SnapKit (~> 5.0.0)
   - SwiftLint (= 0.27.0)
   - "UITextView+Placeholder"
   - XCGLogger (~> 7.0.1)
@@ -165,13 +165,13 @@ SPEC REPOS:
     - RxGesture
     - RxSwift
     - SkeletonView
-    - SnapKit
     - SwiftLint
     - "UITextView+Placeholder"
     - XLPagerTabStrip
   trunk:
     - Kingfisher
     - ObjcExceptionBridging
+    - SnapKit
     - XCGLogger
 
 SPEC CHECKSUMS:
@@ -204,12 +204,12 @@ SPEC CHECKSUMS:
   RxGesture: 26ede4ed13ffc6336d29dbd9a8dff229bdb72de7
   RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
   SkeletonView: 50f7a9b04e3a62bd0ae964859c19317fabaea367
-  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
   "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
   XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
 
-PODFILE CHECKSUM: 2676218dd3a6ed19ca73fd12d497e3203318cb18
+PODFILE CHECKSUM: cf1c7ee1d12e0979bdcadcf241ebaa9ef184aa96
 
 COCOAPODS: 1.10.2

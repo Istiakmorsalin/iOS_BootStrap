@@ -17,7 +17,7 @@ def shared_pods
   pod 'Google-Mobile-Ads-SDK'
   pod 'KeychainAccess', '3.1.1'
   pod 'AMScrollingNavbar', '5.1.0'
-  pod 'SnapKit', '4.0.1'
+  pod 'SnapKit', '~> 5.0.0'
   pod 'IQKeyboardManagerSwift', '6.1.1'
   pod 'SkeletonView', '1.4.0'
   pod 'RxGesture', '2.0.1'
