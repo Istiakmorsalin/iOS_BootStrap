@@ -1,6 +1,5 @@
 PODS:
   - Alamofire (4.7.3)
-  - AMScrollingNavbar (5.1.0)
   - CryptoSwift (0.12.0)
   - Differentiator (3.1.0)
   - Firebase/Core (8.6.1):
@@ -40,7 +39,6 @@ PODS:
     - GoogleUtilities/Environment (~> 7.4)
     - GoogleUtilities/UserDefaults (~> 7.4)
     - PromisesObjC (< 3.0, >= 1.2)
-  - Gifu (3.2.0)
   - GoogleAppMeasurement (8.6.0):
     - GoogleAppMeasurement/AdIdSupport (= 8.6.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
@@ -110,7 +108,7 @@ PODS:
   - SkeletonView (1.4)
   - SnapKit (5.0.1)
   - SwiftLint (0.27.0)
-  - "UITextView+Placeholder (1.2.1)"
+  - "UITextView+Placeholder (1.4.0)"
   - XCGLogger (7.0.1):
     - XCGLogger/Core (= 7.0.1)
   - XCGLogger/Core (7.0.1):
@@ -119,10 +117,8 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (= 4.7.3)
-  - AMScrollingNavbar (= 5.1.0)
   - CryptoSwift (= 0.12.0)
   - Firebase/Core
-  - Gifu (= 3.2.0)
   - IQKeyboardManagerSwift (= 6.3.0)
   - KeychainAccess (= 3.1.1)
   - Kingfisher (~> 5.0)
@@ -142,10 +138,8 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
-    - AMScrollingNavbar
     - CryptoSwift
     - Differentiator
-    - Gifu
     - KeychainAccess
     - ReachabilitySwift
     - Reusable
@@ -155,7 +149,6 @@ SPEC REPOS:
     - RxSwift
     - SkeletonView
     - SwiftLint
-    - "UITextView+Placeholder"
     - XLPagerTabStrip
   trunk:
     - Firebase
@@ -172,11 +165,11 @@ SPEC REPOS:
     - ObjcExceptionBridging
     - PromisesObjC
     - SnapKit
+    - "UITextView+Placeholder"
     - XCGLogger
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
-  AMScrollingNavbar: e10b5e259a3d7fea30ed537cd57e6ba4fbb23d65
   CryptoSwift: 1c07ca50843dd48bc54e6ea53d7a4dba3b645716
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   Firebase: e84d95f6d3a91f634abc384f0751c434cb3aecfa
@@ -184,7 +177,6 @@ SPEC CHECKSUMS:
   FirebaseCore: a753c231801f04f5ccd10cc92119ad1b12a61165
   FirebaseCoreDiagnostics: 3721920bde3a9a6d5aa093c1d25e9d3e47f694af
   FirebaseInstallations: 0ede6ffcd215b8f93c19d9b06c1c54e2d4107e98
-  Gifu: 7bcb6427457d85e0b4dff5a84ec5947ac19a93ea
   GoogleAppMeasurement: 2c0c6e2a7ab3fe730ade6379f732bdefb46f50b0
   GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
   GoogleUtilities: 3df19e3c24f7bbc291d8b5809aa6b0d41e642437
@@ -203,10 +195,10 @@ SPEC CHECKSUMS:
   SkeletonView: 50f7a9b04e3a62bd0ae964859c19317fabaea367
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
-  "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
   XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
 
-PODFILE CHECKSUM: 802f5e696a302e90c2f1b91776255c15f93bf32c
+PODFILE CHECKSUM: 694d4da8404165196629815e56e7410d7ca8f7ce
 
 COCOAPODS: 1.10.2

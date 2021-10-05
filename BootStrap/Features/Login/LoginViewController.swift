@@ -15,7 +15,6 @@ class LoginViewController: UIViewController,StoryboardBased, ViewModelBased {
     
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
-    var progressLoader: ProgressLoader!
     
     var viewModel: LoginViewModel!
     
@@ -23,7 +22,6 @@ class LoginViewController: UIViewController,StoryboardBased, ViewModelBased {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = false
         self.bindViewModel()
-        self.progressLoader = ProgressLoader(viewController: self, color: #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.2943867723), isTopBarHidden: true)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -34,7 +32,6 @@ class LoginViewController: UIViewController,StoryboardBased, ViewModelBased {
     @IBAction func doLogin(_ sender: Any) {
         _ = LoginParameter(email: email.text!, password: password.text!)
         //viewModel.requestLogin.onNext(param)
-        self.progressLoader.showLoader()
         self.viewModel.navigateToHome()
     }
     private func bindViewModel() {
@@ -43,10 +40,10 @@ class LoginViewController: UIViewController,StoryboardBased, ViewModelBased {
             case .next(let element):
                 log.debug(element)
             case .error(let error):
-                self.progressLoader.hideLoader()
+//                self.progressLoader.hideLoader()
                 log.debug(error)
             case .completed:
-                self.progressLoader.hideLoader()
+//                self.progressLoader.hideLoader()
                 log.debug("completed")
             }
         }).disposed(by: disposeBag)

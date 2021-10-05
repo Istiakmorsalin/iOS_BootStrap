@@ -14,11 +14,9 @@ def shared_pods
   pod 'Kingfisher', '~> 5.0'
   pod 'Firebase/Core'
   pod 'KeychainAccess', '3.1.1'
-  pod 'AMScrollingNavbar', '5.1.0'
   pod 'SnapKit', '~> 5.0.0'
   pod 'IQKeyboardManagerSwift', '6.3.0'
   pod 'SkeletonView', '1.4.0'
-  pod 'Gifu', '3.2.0'
   pod 'CryptoSwift', '0.12.0'
   pod 'UITextView+Placeholder'
   pod 'XLPagerTabStrip', '8.0.1'
@@ -37,22 +35,22 @@ target 'prod' do
     shared_pods
 end
 
-post_install do |installer|
-    SWIFT_4_2_PODS = %w[Gifu DropDown]
-
-    installer.pods_project.targets.each do |target|
-        if target.name == 'RxSwift'
-            target.build_configurations.each do |config|
-                if config.name == 'Debug'
-                    config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['-D', 'TRACE_RESOURCES']
-                end
-            end
-        end
-
-        if SWIFT_4_2_PODS.include?(target.name)
-            target.build_configurations.each do |config|
-                config.build_settings['SWIFT_VERSION'] = '4.2'
-            end
-        end
-    end
-end
+#post_install do |installer|
+#    SWIFT_4_2_PODS = %w[Gifu DropDown]
+#
+#    installer.pods_project.targets.each do |target|
+#        if target.name == 'RxSwift'
+#            target.build_configurations.each do |config|
+#                if config.name == 'Debug'
+#                    config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['-D', 'TRACE_RESOURCES']
+#                end
+#            end
+#        end
+#
+#        if SWIFT_4_2_PODS.include?(target.name)
+#            target.build_configurations.each do |config|
+#                config.build_settings['SWIFT_VERSION'] = '4.2'
+#            end
+#        end
+#    end
+#end

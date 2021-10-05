@@ -86,7 +86,6 @@
 		164029B521A59805001F9508 /* UIImage+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50C55E20FE01A1000508DB /* UIImage+Extra.swift */; };
 		164029B621A59805001F9508 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF4720F32C1900703E5F /* UIView+Frame.swift */; };
 		164029B721A59805001F9508 /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162498F920F482D700779AB7 /* KeyManager.swift */; };
-		164029B821A59805001F9508 /* ProgressLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E45B9213B9C3700327BB2 /* ProgressLoader.swift */; };
 		164029B921A59805001F9508 /* UIViewController+TopMostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CD898214679F200A33440 /* UIViewController+TopMostViewController.swift */; };
 		164029BB21A59805001F9508 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E183E2121AAD200CF7F34 /* LoginResponse.swift */; };
 		164029BC21A59805001F9508 /* UIImageView+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC687D4215CF7A600556AFF /* UIImageView+Extra.swift */; };
@@ -194,7 +193,6 @@
 		16402A5C21A59817001F9508 /* UIImage+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50C55E20FE01A1000508DB /* UIImage+Extra.swift */; };
 		16402A5D21A59817001F9508 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF4720F32C1900703E5F /* UIView+Frame.swift */; };
 		16402A5E21A59817001F9508 /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162498F920F482D700779AB7 /* KeyManager.swift */; };
-		16402A5F21A59817001F9508 /* ProgressLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E45B9213B9C3700327BB2 /* ProgressLoader.swift */; };
 		16402A6021A59817001F9508 /* UIViewController+TopMostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CD898214679F200A33440 /* UIViewController+TopMostViewController.swift */; };
 		16402A6221A59817001F9508 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E183E2121AAD200CF7F34 /* LoginResponse.swift */; };
 		16402A6321A59817001F9508 /* UIImageView+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC687D4215CF7A600556AFF /* UIImageView+Extra.swift */; };
@@ -304,7 +302,6 @@
 		16402B0421A59823001F9508 /* UIImage+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50C55E20FE01A1000508DB /* UIImage+Extra.swift */; };
 		16402B0521A59823001F9508 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73AF4720F32C1900703E5F /* UIView+Frame.swift */; };
 		16402B0621A59823001F9508 /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162498F920F482D700779AB7 /* KeyManager.swift */; };
-		16402B0721A59823001F9508 /* ProgressLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E45B9213B9C3700327BB2 /* ProgressLoader.swift */; };
 		16402B0821A59823001F9508 /* UIViewController+TopMostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1CD898214679F200A33440 /* UIViewController+TopMostViewController.swift */; };
 		16402B0A21A59823001F9508 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E183E2121AAD200CF7F34 /* LoginResponse.swift */; };
 		16402B0B21A59823001F9508 /* UIImageView+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC687D4215CF7A600556AFF /* UIImageView+Extra.swift */; };
@@ -481,7 +478,6 @@
 		9C2FDEEA2191390B008A235B /* DynamicLinkDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLinkDomain.swift; sourceTree = "<group>"; };
 		9C2FDEEC2191391B008A235B /* DynamicLinkDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLinkDomain.swift; sourceTree = "<group>"; };
 		9C9AC8052102F761007BA433 /* Parameterizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameterizable.swift; sourceTree = "<group>"; };
-		9C9E45B9213B9C3700327BB2 /* ProgressLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoader.swift; sourceTree = "<group>"; };
 		AED67094F8B8776D957DE890 /* Pods-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dev/Pods-dev.debug.xcconfig"; sourceTree = "<group>"; };
 		C693D2EFFD9B5D344C2DDA8B /* Pods-prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prod.release.xcconfig"; path = "Pods/Target Support Files/Pods-prod/Pods-prod.release.xcconfig"; sourceTree = "<group>"; };
 		CA5624C921648CC7000D3EC2 /* PlaceHolderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextView.swift; sourceTree = "<group>"; };
@@ -927,7 +923,6 @@
 		9C9E45B8213B9C1200327BB2 /* Loader */ = {
 			isa = PBXGroup;
 			children = (
-				9C9E45B9213B9C3700327BB2 /* ProgressLoader.swift */,
 			);
 			path = Loader;
 			sourceTree = "<group>";
@@ -1341,7 +1336,6 @@
 				164029B521A59805001F9508 /* UIImage+Extra.swift in Sources */,
 				164029B621A59805001F9508 /* UIView+Frame.swift in Sources */,
 				164029B721A59805001F9508 /* KeyManager.swift in Sources */,
-				164029B821A59805001F9508 /* ProgressLoader.swift in Sources */,
 				164029B921A59805001F9508 /* UIViewController+TopMostViewController.swift in Sources */,
 				164029BB21A59805001F9508 /* LoginResponse.swift in Sources */,
 				164029BC21A59805001F9508 /* UIImageView+Extra.swift in Sources */,
@@ -1450,7 +1444,6 @@
 				16402A5C21A59817001F9508 /* UIImage+Extra.swift in Sources */,
 				16402A5D21A59817001F9508 /* UIView+Frame.swift in Sources */,
 				16402A5E21A59817001F9508 /* KeyManager.swift in Sources */,
-				16402A5F21A59817001F9508 /* ProgressLoader.swift in Sources */,
 				16402A6021A59817001F9508 /* UIViewController+TopMostViewController.swift in Sources */,
 				16402A6221A59817001F9508 /* LoginResponse.swift in Sources */,
 				16402A6321A59817001F9508 /* UIImageView+Extra.swift in Sources */,
@@ -1562,7 +1555,6 @@
 				16402B0421A59823001F9508 /* UIImage+Extra.swift in Sources */,
 				16402B0521A59823001F9508 /* UIView+Frame.swift in Sources */,
 				16402B0621A59823001F9508 /* KeyManager.swift in Sources */,
-				16402B0721A59823001F9508 /* ProgressLoader.swift in Sources */,
 				16402B0821A59823001F9508 /* UIViewController+TopMostViewController.swift in Sources */,
 				16402B0A21A59823001F9508 /* LoginResponse.swift in Sources */,
 				16402B0B21A59823001F9508 /* UIImageView+Extra.swift in Sources */,

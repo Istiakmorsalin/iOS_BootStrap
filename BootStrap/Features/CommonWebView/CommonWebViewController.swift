@@ -16,13 +16,10 @@ class CommonWebViewController: UIViewController, StoryboardBased, ViewModelBased
     var viewModel: CommonWebViewModel!
     var webView: WKWebView!
     var webURL: String!
-    var progressLoader: ProgressLoader!
     
     override func viewDidLoad() {
         self.setupNavigationBar()
         self.setupWebView()
-        self.progressLoader = ProgressLoader(viewController: self)
-        self.progressLoader.showLoader()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -39,7 +36,6 @@ class CommonWebViewController: UIViewController, StoryboardBased, ViewModelBased
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        self.progressLoader.hideLoader()
     }
     
     private func setupWebView() {
@@ -96,16 +92,14 @@ extension CommonWebViewController: WKNavigationDelegate {
     }
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        self.progressLoader.hideLoader()
+       
     }
     
     func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
         print(error)
-        self.progressLoader.hideLoader()
     }
     
     func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
         print(error)
-        self.progressLoader.hideLoader()
     }
 }
